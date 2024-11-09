@@ -142,10 +142,10 @@ The backend is a Python Flask application that acts as a proxy for the Clearbit 
 
 - **Backend (`backend/.env`)**:
   ```plaintext
-  CLEARBIT_API_KEY=your_clearbit_api_key
+  CLEARBIT_API_KEY=clearbit_api_key
   ```
 
-Replace `your_firebase_api_key`, `your_project.firebaseapp.com`, `your_firebase_project_id`, and `your_clearbit_api_key` with the actual values from Firebase and Clearbit.
+Replace `my_firebase_api_key`, `my_project.firebaseapp.com`, `my_firebase_project_id`, and `clearbit_api_key` with the actual values from Firebase and Clearbit.
 
 ---
 
