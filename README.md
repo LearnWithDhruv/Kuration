@@ -117,7 +117,7 @@ The backend is a Python Flask application that acts as a proxy for the Clearbit 
 
 4. **Environment Variables**: Create a `.env` file in the `backend` folder and add your Clearbit API key:
    ```plaintext
-   CLEARBIT_API_KEY=your_clearbit_api_key
+   CLEARBIT_API_KEY=clearbit_api_key 
    ```
 
 5. **Run the Backend**:
@@ -135,9 +135,9 @@ The backend is a Python Flask application that acts as a proxy for the Clearbit 
 
 - **Frontend (`frontend/.env`)**:
   ```plaintext
-  REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
-  REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-  REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+  REACT_APP_FIREBASE_API_KEY="AIzaSyAmVYFzDPh0T6Oeow8pyoTAD0k9_kCsrXs"
+  REACT_APP_FIREBASE_AUTH_DOMAIN="project-3afab.firebaseapp.com"
+  REACT_APP_FIREBASE_PROJECT_ID="project-3afab"
   ```
 
 - **Backend (`backend/.env`)**:
