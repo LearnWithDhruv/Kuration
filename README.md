@@ -69,9 +69,10 @@ The frontend is built with React and handles user authentication, input form, an
 
 3. **Environment Variables**: Create a `.env` file in the `frontend` folder and add Firebase configuration:
    ```plaintext
-   REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
-   REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-   REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+   REACT_APP_FIREBASE_API_KEY="AIzaSyAmVYFzDPh0T6Oeow8pyoTAD0k9_kCsrXs"
+   REACT_APP_FIREBASE_AUTH_DOMAIN="project-3afab.firebaseapp.com"
+   REACT_APP_FIREBASE_PROJECT_ID="project-3afab"
+
    ```
 
 4. **Configure Firebase**:
